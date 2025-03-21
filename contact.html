@@ -1,11 +1,49 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Elite Kicks - Contact</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    
+    <!-- Ahnaf Bhuiya - 2230282 -->
+    <header class="animated">
+        <h1>Elite Kicks</h1>
+        <p>Premium Football Boots for Champions</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <h2 class="animated">Contact Us</h2>
+        
+        <form id="contactForm" class="contact-form animated">
+            <div class="form-group">
+                <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="button" class="btn primary-btn" onclick="sendMessage()">Send Message</button>
+        </form>
+    </main>
+
+    <footer class="animated">
+        <p>&copy; 2023 Elite Kicks. All rights reserved.</p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
