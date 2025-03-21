@@ -115,3 +115,30 @@ input, textarea {
     border-radius: 4px;
     font-size: 1rem;
 }
+
+/* Buttons */
+.btn {
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.primary-btn {
+    background: #ff6b6b;
+    color: white;
+}
+
+.primary-btn:hover {
+    background: #ff5252;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to right, #0f2027,#203a43,#2c5364);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 4rem;
+}
